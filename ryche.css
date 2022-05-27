@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.junior{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 70px;
+    
+}
+.sous-junior{
+    margin-right: 40px;
+    margin-top: 2px;
+}
+.junior  .sous-junior h1{
+    font-size: large;
+}
+a{
+    text-decoration:none;
+}
+
+.sous-junior p{
+    margin-top: 5px;
+}
+@media all and (min-width: 100px) and (max-width: 1280px){
+   
+    .place{
+            font-size: small;
+            text-align: left;
+    }
+  
+   
+    .meilleur p{
+        font-size: 10px;
+        text-align: center;
+    }
+    footer{
+        background-image:linear-gradient(rgba(12,9,9,0.7),rgba(12,9,9,0.7)),url("junior.png");
+        font-size: small;
+    }
+    #dir{
+        background-image:linear-gradient(rgba(12, 12, 12, 0.1),rgba(14, 13, 13, 0.1)),url("junior.png");
+        width: 100%;
+        text-indent: 15px;
+        font-size: small;
+        
+    }
+    .junior {
+        margin-top: 5%;
+        display: inline;
+        justify-content: space-between;
+    }
+}
+
+
+
+
+footer{
+    background-image:linear-gradient(rgba(22, 9, 9, 0.7),rgba(12,9,9,0.7)),url("junior.png");
+    
+}
+#dir{
+    background-image:linear-gradient(rgba(12, 12, 12, 0.1),rgba(14, 13, 13, 0.1)),url("junior.png");
+    width: 100%;
+    text-indent: 15px;
+}
+.ju{
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.divider{
+    height: 5px;
+    width: 80px;
+    background: linear-gradient(to right,#00e0fe,#1107fe);
+    margin: 16px auto;
+}
